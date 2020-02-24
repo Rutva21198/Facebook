@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FacebookProjectRxWeb.BoundedContext\FacebookProjectRxWeb.BoundedContext.csproj" />
+    <ProjectReference Include="..\FacebookProjectRxWeb.UnitOfWork\FacebookProjectRxWeb.UnitOfWork.csproj" />
+    <ProjectReference Include="..\FacebookProjectRxWeb.Models\FacebookProjectRxWeb.Models.csproj" />
+    <ProjectReference Include="..\FacebookProjectRxWeb.Infrastructure\FacebookProjectRxWeb.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

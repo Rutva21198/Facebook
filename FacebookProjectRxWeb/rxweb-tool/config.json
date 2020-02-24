@@ -1,0 +1,32 @@
+{
+  "projects": {
+    "api": "FacebookProjectRxWeb.Api",
+    "model": "FacebookProjectRxWeb.Models",
+    "context": "FacebookProjectRxWeb.BoundedContext",
+    "domain": "FacebookProjectRxWeb.Domain",
+	"unitOfWork": "FacebookProjectRxWeb.UnitOfWork",
+    "infrastructure": "FacebookProjectRxWeb.Infrastructure",
+    "azureFunctionHttp":"",
+    "portal":"",
+    "azureFunctionBackground":""
+  },
+  "path": {
+    "dbConnection": {
+      "main": "Database.ConnectionString.Main"
+    },
+    "folder": {
+      "model": "DbEntities",
+      "context": "",
+	  "enums": "",
+	  "localizeValidationMessage": "wwwroot"
+    }
+  },
+  "annotations": {
+    "rxweb": false
+  },
+  "config": {
+    "generateEnums": false,
+    "commanTableSchema": "dbo",
+    "validationMessageLocalizationId": "15"
+  }
+}
